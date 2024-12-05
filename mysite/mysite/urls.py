@@ -22,4 +22,6 @@ urlpatterns = [
     path('auth/', include("Auth_app.urls")),
     path('form/',include('Form_app.urls')),
     path('s/',include('Session_app.urls')),
+    path('jwt/',include('JWT_app.urls')),
+
 ]
